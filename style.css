@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 20;
+    padding: 20;
+}
+
+body {
+    font-family: "New Century Schoolbook", Times, serif;
+    background: hsl(168, 52%, 87%);
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.select-title {
+    line-height: 10px;
+    font-weight: 700;
+    color: hsl(168, 95%, 22%);
+}
+
+input[type=file] {
+    background-color: hsl(168, 52%, 87%);
+    border-radius: 20px;
+}
+
+input[name=file] {
+    border: 3px solid hsl(168, 95%, 22%);;
+    text-align: center;
+    padding: 10px;
+}
+
+.thumb {
+    height: 50%;
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+.controls {
+    margin-top: 1.5em;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    cursor: pointer;
+    margin-right: 24px;
+    padding: 10px;
+    border-radius: 100px;
+    color: hsl(168, 95%, 22%);
+}
+
+.buttons:hover {
+    background: hsl(168, 95%, 22%);
+    color: white;
+}
+
+.button:focus {
+    background: hsl(169, 44%, 32%);
+    color: white;
+}
+
